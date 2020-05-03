@@ -17,3 +17,9 @@ def get_posts():
         return response
     else:
         return None
+
+
+class Calculadora:
+
+    def suma(self, val1, val2):
+        return val1 + val2
